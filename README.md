@@ -8,9 +8,7 @@
     * 增加oc接口层方便切换其它工具
     
 * 2、将该工具通过MonkeyDev工具注入到微信7.0.11中，示例中calltrace起点为微信小程序点击`[WAAppContactPreLoader openApp:taskExtInfo:onSuccess:onFailed:]`，终点为小程序打开完成`[WAWebViewController taskDidOpen]`,demo视频如下
-  <video id="video" controls="" preload="none" >
-    <source id="mp4" src="media/1584875130105342.mp4" type="video/mp4">
-</video>
+  ![](media/CallTraceForWeChat.gif)
 
  * 微信示例小程序启动过程中主线程耗时超过0.5s的方法callTrace记录
  
