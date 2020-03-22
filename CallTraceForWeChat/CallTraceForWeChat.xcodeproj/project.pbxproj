@@ -1,0 +1,886 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A551D992424A5190049622E /* MDConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3A551D982424A5190049622E /* MDConfig.plist */; };
+		3A551DA32424A5190049622E /* libCallTraceForWeChatDylib.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3A551DA22424A5190049622E /* libCallTraceForWeChatDylib.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		3A551DA82424A5190049622E /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A551DA72424A5190049622E /* JavaScriptCore.framework */; };
+		3A551DAA2424A5190049622E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A551DA92424A5190049622E /* Foundation.framework */; };
+		3A551DAC2424A5190049622E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A551DAB2424A5190049622E /* UIKit.framework */; };
+		3A551DB12424A5190049622E /* CallTraceForWeChatDylib.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3A551DB02424A5190049622E /* CallTraceForWeChatDylib.mm */; };
+		3A551DB42424A5190049622E /* MDConfigManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A551DB32424A5190049622E /* MDConfigManager.h */; };
+		3A551DB62424A5190049622E /* MDConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A551DB52424A5190049622E /* MDConfigManager.m */; };
+		3A551DB82424A5190049622E /* MDCycriptManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A551DB72424A5190049622E /* MDCycriptManager.h */; };
+		3A551DBA2424A5190049622E /* MDCycriptManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A551DB92424A5190049622E /* MDCycriptManager.m */; };
+		3A551DBC2424A5190049622E /* MDMethodTrace.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A551DBB2424A5190049622E /* MDMethodTrace.h */; };
+		3A551DBE2424A5190049622E /* MDMethodTrace.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A551DBD2424A5190049622E /* MDMethodTrace.m */; };
+		3A551DC12424A5190049622E /* a1a2-selectortramps-arm.s in Sources */ = {isa = PBXBuildFile; fileRef = 3A551DC02424A5190049622E /* a1a2-selectortramps-arm.s */; };
+		3A551DC32424A5190049622E /* a1a2-selectortramps-arm64.s in Sources */ = {isa = PBXBuildFile; fileRef = 3A551DC22424A5190049622E /* a1a2-selectortramps-arm64.s */; };
+		3A551DC52424A5190049622E /* a1a2-selectortramps-i386.s in Sources */ = {isa = PBXBuildFile; fileRef = 3A551DC42424A5190049622E /* a1a2-selectortramps-i386.s */; };
+		3A551DC72424A5190049622E /* a1a2-selectortramps-x86_64.s in Sources */ = {isa = PBXBuildFile; fileRef = 3A551DC62424A5190049622E /* a1a2-selectortramps-x86_64.s */; };
+		3A551DC92424A5190049622E /* a2a3-selectortramps-arm.s in Sources */ = {isa = PBXBuildFile; fileRef = 3A551DC82424A5190049622E /* a2a3-selectortramps-arm.s */; };
+		3A551DCB2424A5190049622E /* a2a3-selectortramps-i386.s in Sources */ = {isa = PBXBuildFile; fileRef = 3A551DCA2424A5190049622E /* a2a3-selectortramps-i386.s */; };
+		3A551DCD2424A5190049622E /* a2a3-selectortramps-x86_64.s in Sources */ = {isa = PBXBuildFile; fileRef = 3A551DCC2424A5190049622E /* a2a3-selectortramps-x86_64.s */; };
+		3A551DCF2424A5190049622E /* OCMethodTrace.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A551DCE2424A5190049622E /* OCMethodTrace.h */; };
+		3A551DD12424A5190049622E /* OCMethodTrace.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A551DD02424A5190049622E /* OCMethodTrace.m */; };
+		3A551DD32424A5190049622E /* OCSelectorTrampolines.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A551DD22424A5190049622E /* OCSelectorTrampolines.h */; };
+		3A551DD52424A5190049622E /* OCSelectorTrampolines.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3A551DD42424A5190049622E /* OCSelectorTrampolines.mm */; };
+		3A551DD92424A51A0049622E /* LLDBTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A551DD82424A51A0049622E /* LLDBTools.h */; };
+		3A551DDB2424A51A0049622E /* LLDBTools.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3A551DDA2424A51A0049622E /* LLDBTools.mm */; };
+		3A551DE02424A51A0049622E /* AntiAntiDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A551DDF2424A51A0049622E /* AntiAntiDebug.m */; };
+		3A551DE32424A51A0049622E /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 3A551DE22424A51A0049622E /* fishhook.c */; };
+		3A551DE52424A51A0049622E /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A551DE42424A51A0049622E /* fishhook.h */; };
+		3A551DE72424A51A0049622E /* CallTraceForWeChatDylib.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A551DE62424A51A0049622E /* CallTraceForWeChatDylib.h */; };
+		3A551DE92424A51A0049622E /* CallTraceForWeChatDylib.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A551DE82424A51A0049622E /* CallTraceForWeChatDylib.m */; };
+		3A551E072424BBBD0049622E /* BBASMRecordHierarchyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A551DF42424BBBD0049622E /* BBASMRecordHierarchyModel.m */; };
+		3A551E082424BBBD0049622E /* BBASMTimeProfilerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A551DF52424BBBD0049622E /* BBASMTimeProfilerVC.m */; };
+		3A551E092424BBBD0049622E /* BBASMCallTrace.c in Sources */ = {isa = PBXBuildFile; fileRef = 3A551DF62424BBBD0049622E /* BBASMCallTrace.c */; };
+		3A551E0A2424BBBD0049622E /* BBASMTimeProfileDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A551DF72424BBBD0049622E /* BBASMTimeProfileDataManager.h */; };
+		3A551E0B2424BBBD0049622E /* BBASMRecordModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A551DF82424BBBD0049622E /* BBASMRecordModel.h */; };
+		3A551E0C2424BBBD0049622E /* BBASMCallTraceRunTime.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A551DF92424BBBD0049622E /* BBASMCallTraceRunTime.h */; };
+		3A551E0D2424BBBD0049622E /* BBASMCallTraceInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A551DFA2424BBBD0049622E /* BBASMCallTraceInterface.m */; };
+		3A551E0E2424BBBD0049622E /* BBASMRecordCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A551DFB2424BBBD0049622E /* BBASMRecordCell.m */; };
+		3A551E0F2424BBBD0049622E /* BBASMTimeProfileDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A551DFC2424BBBD0049622E /* BBASMTimeProfileDataManager.m */; };
+		3A551E102424BBBD0049622E /* BBASMCallTrace.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A551DFD2424BBBD0049622E /* BBASMCallTrace.h */; };
+		3A551E112424BBBD0049622E /* BBASMRecordHierarchyModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A551DFE2424BBBD0049622E /* BBASMRecordHierarchyModel.h */; };
+		3A551E122424BBBD0049622E /* BBASMTimeProfilerVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A551DFF2424BBBD0049622E /* BBASMTimeProfilerVC.h */; };
+		3A551E132424BBBD0049622E /* BBASMRecordModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A551E002424BBBD0049622E /* BBASMRecordModel.m */; };
+		3A551E142424BBBD0049622E /* BBASMCallTraceRunTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A551E012424BBBD0049622E /* BBASMCallTraceRunTime.m */; };
+		3A551E152424BBBD0049622E /* BBASMRecordCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A551E022424BBBD0049622E /* BBASMRecordCell.h */; };
+		3A551E162424BBBD0049622E /* BBASMCallTraceInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A551E032424BBBD0049622E /* BBASMCallTraceInterface.h */; };
+		3A551E172424BBBD0049622E /* BBASMCallTraceProfilerEntrance.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A551E052424BBBD0049622E /* BBASMCallTraceProfilerEntrance.h */; };
+		3A551E182424BBBD0049622E /* BBASMCallTraceProfilerEntrance.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A551E062424BBBD0049622E /* BBASMCallTraceProfilerEntrance.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A551DA42424A5190049622E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A551D862424A5190049622E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A551DA12424A5190049622E;
+			remoteInfo = CallTraceForWeChatDylib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3A551D8E2424A5190049622E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3A551DA32424A5190049622E /* libCallTraceForWeChatDylib.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3A551D912424A5190049622E /* CallTraceForWeChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CallTraceForWeChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A551D942424A5190049622E /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		3A551D962424A5190049622E /* quick-resign.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "quick-resign.sh"; sourceTree = "<group>"; };
+		3A551D982424A5190049622E /* MDConfig.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = MDConfig.plist; sourceTree = "<group>"; };
+		3A551D9B2424A5190049622E /* put ipa or app here */ = {isa = PBXFileReference; lastKnownFileType = text; path = "put ipa or app here"; sourceTree = "<group>"; };
+		3A551D9C2424A5190049622E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A551DA22424A5190049622E /* libCallTraceForWeChatDylib.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libCallTraceForWeChatDylib.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A551DA72424A5190049622E /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		3A551DA92424A5190049622E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3A551DAB2424A5190049622E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3A551DAF2424A5190049622E /* CallTraceForWeChatDylib.xm */ = {isa = PBXFileReference; lastKnownFileType = text; path = CallTraceForWeChatDylib.xm; sourceTree = "<group>"; };
+		3A551DB02424A5190049622E /* CallTraceForWeChatDylib.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CallTraceForWeChatDylib.mm; sourceTree = "<group>"; };
+		3A551DB32424A5190049622E /* MDConfigManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDConfigManager.h; sourceTree = "<group>"; };
+		3A551DB52424A5190049622E /* MDConfigManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDConfigManager.m; sourceTree = "<group>"; };
+		3A551DB72424A5190049622E /* MDCycriptManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDCycriptManager.h; sourceTree = "<group>"; };
+		3A551DB92424A5190049622E /* MDCycriptManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDCycriptManager.m; sourceTree = "<group>"; };
+		3A551DBB2424A5190049622E /* MDMethodTrace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDMethodTrace.h; sourceTree = "<group>"; };
+		3A551DBD2424A5190049622E /* MDMethodTrace.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDMethodTrace.m; sourceTree = "<group>"; };
+		3A551DC02424A5190049622E /* a1a2-selectortramps-arm.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = "a1a2-selectortramps-arm.s"; sourceTree = "<group>"; };
+		3A551DC22424A5190049622E /* a1a2-selectortramps-arm64.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = "a1a2-selectortramps-arm64.s"; sourceTree = "<group>"; };
+		3A551DC42424A5190049622E /* a1a2-selectortramps-i386.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = "a1a2-selectortramps-i386.s"; sourceTree = "<group>"; };
+		3A551DC62424A5190049622E /* a1a2-selectortramps-x86_64.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = "a1a2-selectortramps-x86_64.s"; sourceTree = "<group>"; };
+		3A551DC82424A5190049622E /* a2a3-selectortramps-arm.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = "a2a3-selectortramps-arm.s"; sourceTree = "<group>"; };
+		3A551DCA2424A5190049622E /* a2a3-selectortramps-i386.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = "a2a3-selectortramps-i386.s"; sourceTree = "<group>"; };
+		3A551DCC2424A5190049622E /* a2a3-selectortramps-x86_64.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = "a2a3-selectortramps-x86_64.s"; sourceTree = "<group>"; };
+		3A551DCE2424A5190049622E /* OCMethodTrace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCMethodTrace.h; sourceTree = "<group>"; };
+		3A551DD02424A5190049622E /* OCMethodTrace.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCMethodTrace.m; sourceTree = "<group>"; };
+		3A551DD22424A5190049622E /* OCSelectorTrampolines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCSelectorTrampolines.h; sourceTree = "<group>"; };
+		3A551DD42424A5190049622E /* OCSelectorTrampolines.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = OCSelectorTrampolines.mm; sourceTree = "<group>"; };
+		3A551DD62424A51A0049622E /* selectortramps.mac */ = {isa = PBXFileReference; lastKnownFileType = text; path = selectortramps.mac; sourceTree = "<group>"; };
+		3A551DD82424A51A0049622E /* LLDBTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLDBTools.h; sourceTree = "<group>"; };
+		3A551DDA2424A51A0049622E /* LLDBTools.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = LLDBTools.mm; sourceTree = "<group>"; };
+		3A551DDD2424A51A0049622E /* CallTraceForWeChatDylib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CallTraceForWeChatDylib-Prefix.pch"; path = "../CallTraceForWeChatDylib-Prefix.pch"; sourceTree = "<group>"; };
+		3A551DDF2424A51A0049622E /* AntiAntiDebug.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AntiAntiDebug.m; sourceTree = "<group>"; };
+		3A551DE22424A51A0049622E /* fishhook.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fishhook.c; sourceTree = "<group>"; };
+		3A551DE42424A51A0049622E /* fishhook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fishhook.h; sourceTree = "<group>"; };
+		3A551DE62424A51A0049622E /* CallTraceForWeChatDylib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CallTraceForWeChatDylib.h; sourceTree = "<group>"; };
+		3A551DE82424A51A0049622E /* CallTraceForWeChatDylib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CallTraceForWeChatDylib.m; sourceTree = "<group>"; };
+		3A551DF42424BBBD0049622E /* BBASMRecordHierarchyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBASMRecordHierarchyModel.m; sourceTree = "<group>"; };
+		3A551DF52424BBBD0049622E /* BBASMTimeProfilerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBASMTimeProfilerVC.m; sourceTree = "<group>"; };
+		3A551DF62424BBBD0049622E /* BBASMCallTrace.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BBASMCallTrace.c; sourceTree = "<group>"; };
+		3A551DF72424BBBD0049622E /* BBASMTimeProfileDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBASMTimeProfileDataManager.h; sourceTree = "<group>"; };
+		3A551DF82424BBBD0049622E /* BBASMRecordModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBASMRecordModel.h; sourceTree = "<group>"; };
+		3A551DF92424BBBD0049622E /* BBASMCallTraceRunTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBASMCallTraceRunTime.h; sourceTree = "<group>"; };
+		3A551DFA2424BBBD0049622E /* BBASMCallTraceInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBASMCallTraceInterface.m; sourceTree = "<group>"; };
+		3A551DFB2424BBBD0049622E /* BBASMRecordCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBASMRecordCell.m; sourceTree = "<group>"; };
+		3A551DFC2424BBBD0049622E /* BBASMTimeProfileDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBASMTimeProfileDataManager.m; sourceTree = "<group>"; };
+		3A551DFD2424BBBD0049622E /* BBASMCallTrace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBASMCallTrace.h; sourceTree = "<group>"; };
+		3A551DFE2424BBBD0049622E /* BBASMRecordHierarchyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBASMRecordHierarchyModel.h; sourceTree = "<group>"; };
+		3A551DFF2424BBBD0049622E /* BBASMTimeProfilerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBASMTimeProfilerVC.h; sourceTree = "<group>"; };
+		3A551E002424BBBD0049622E /* BBASMRecordModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBASMRecordModel.m; sourceTree = "<group>"; };
+		3A551E012424BBBD0049622E /* BBASMCallTraceRunTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBASMCallTraceRunTime.m; sourceTree = "<group>"; };
+		3A551E022424BBBD0049622E /* BBASMRecordCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBASMRecordCell.h; sourceTree = "<group>"; };
+		3A551E032424BBBD0049622E /* BBASMCallTraceInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBASMCallTraceInterface.h; sourceTree = "<group>"; };
+		3A551E052424BBBD0049622E /* BBASMCallTraceProfilerEntrance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBASMCallTraceProfilerEntrance.h; sourceTree = "<group>"; };
+		3A551E062424BBBD0049622E /* BBASMCallTraceProfilerEntrance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBASMCallTraceProfilerEntrance.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A551D8B2424A5190049622E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A551D9F2424A5190049622E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A551DA82424A5190049622E /* JavaScriptCore.framework in Frameworks */,
+				3A551DAC2424A5190049622E /* UIKit.framework in Frameworks */,
+				3A551DAA2424A5190049622E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A551D852424A5190049622E = {
+			isa = PBXGroup;
+			children = (
+				3A551D932424A5190049622E /* CallTraceForWeChat */,
+				3A551DAD2424A5190049622E /* CallTraceForWeChatDylib */,
+				3A551DA62424A5190049622E /* Frameworks */,
+				3A551D922424A5190049622E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A551D922424A5190049622E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A551D912424A5190049622E /* CallTraceForWeChat.app */,
+				3A551DA22424A5190049622E /* libCallTraceForWeChatDylib.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A551D932424A5190049622E /* CallTraceForWeChat */ = {
+			isa = PBXGroup;
+			children = (
+				3A551D942424A5190049622E /* icon.png */,
+				3A551D9C2424A5190049622E /* Info.plist */,
+				3A551D952424A5190049622E /* Scripts */,
+				3A551D972424A5190049622E /* Config */,
+				3A551D9A2424A5190049622E /* TargetApp */,
+			);
+			path = CallTraceForWeChat;
+			sourceTree = "<group>";
+		};
+		3A551D952424A5190049622E /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				3A551D962424A5190049622E /* quick-resign.sh */,
+			);
+			path = Scripts;
+			sourceTree = "<group>";
+		};
+		3A551D972424A5190049622E /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				3A551D982424A5190049622E /* MDConfig.plist */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		3A551D9A2424A5190049622E /* TargetApp */ = {
+			isa = PBXGroup;
+			children = (
+				3A551D9B2424A5190049622E /* put ipa or app here */,
+			);
+			path = TargetApp;
+			sourceTree = "<group>";
+		};
+		3A551DA62424A5190049622E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A551DA72424A5190049622E /* JavaScriptCore.framework */,
+				3A551DA92424A5190049622E /* Foundation.framework */,
+				3A551DAB2424A5190049622E /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3A551DAD2424A5190049622E /* CallTraceForWeChatDylib */ = {
+			isa = PBXGroup;
+			children = (
+				3A551DF22424BBBD0049622E /* Monitor */,
+				3A551DE62424A51A0049622E /* CallTraceForWeChatDylib.h */,
+				3A551DE82424A51A0049622E /* CallTraceForWeChatDylib.m */,
+				3A551DAE2424A5190049622E /* Logos */,
+				3A551DB22424A5190049622E /* Config */,
+				3A551DBF2424A5190049622E /* Trace */,
+				3A551DD72424A51A0049622E /* Tools */,
+				3A551DDE2424A51A0049622E /* AntiAntiDebug */,
+				3A551DE12424A51A0049622E /* fishhook */,
+				3A551DDC2424A51A0049622E /* Supporting Files */,
+			);
+			path = CallTraceForWeChatDylib;
+			sourceTree = "<group>";
+		};
+		3A551DAE2424A5190049622E /* Logos */ = {
+			isa = PBXGroup;
+			children = (
+				3A551DAF2424A5190049622E /* CallTraceForWeChatDylib.xm */,
+				3A551DB02424A5190049622E /* CallTraceForWeChatDylib.mm */,
+			);
+			path = Logos;
+			sourceTree = "<group>";
+		};
+		3A551DB22424A5190049622E /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				3A551DB32424A5190049622E /* MDConfigManager.h */,
+				3A551DB52424A5190049622E /* MDConfigManager.m */,
+				3A551DB72424A5190049622E /* MDCycriptManager.h */,
+				3A551DB92424A5190049622E /* MDCycriptManager.m */,
+				3A551DBB2424A5190049622E /* MDMethodTrace.h */,
+				3A551DBD2424A5190049622E /* MDMethodTrace.m */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		3A551DBF2424A5190049622E /* Trace */ = {
+			isa = PBXGroup;
+			children = (
+				3A551DC02424A5190049622E /* a1a2-selectortramps-arm.s */,
+				3A551DC22424A5190049622E /* a1a2-selectortramps-arm64.s */,
+				3A551DC42424A5190049622E /* a1a2-selectortramps-i386.s */,
+				3A551DC62424A5190049622E /* a1a2-selectortramps-x86_64.s */,
+				3A551DC82424A5190049622E /* a2a3-selectortramps-arm.s */,
+				3A551DCA2424A5190049622E /* a2a3-selectortramps-i386.s */,
+				3A551DCC2424A5190049622E /* a2a3-selectortramps-x86_64.s */,
+				3A551DCE2424A5190049622E /* OCMethodTrace.h */,
+				3A551DD02424A5190049622E /* OCMethodTrace.m */,
+				3A551DD22424A5190049622E /* OCSelectorTrampolines.h */,
+				3A551DD42424A5190049622E /* OCSelectorTrampolines.mm */,
+				3A551DD62424A51A0049622E /* selectortramps.mac */,
+			);
+			path = Trace;
+			sourceTree = "<group>";
+		};
+		3A551DD72424A51A0049622E /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				3A551DD82424A51A0049622E /* LLDBTools.h */,
+				3A551DDA2424A51A0049622E /* LLDBTools.mm */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		3A551DDC2424A51A0049622E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A551DDD2424A51A0049622E /* CallTraceForWeChatDylib-Prefix.pch */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3A551DDE2424A51A0049622E /* AntiAntiDebug */ = {
+			isa = PBXGroup;
+			children = (
+				3A551DDF2424A51A0049622E /* AntiAntiDebug.m */,
+			);
+			path = AntiAntiDebug;
+			sourceTree = "<group>";
+		};
+		3A551DE12424A51A0049622E /* fishhook */ = {
+			isa = PBXGroup;
+			children = (
+				3A551DE22424A51A0049622E /* fishhook.c */,
+				3A551DE42424A51A0049622E /* fishhook.h */,
+			);
+			path = fishhook;
+			sourceTree = "<group>";
+		};
+		3A551DF22424BBBD0049622E /* Monitor */ = {
+			isa = PBXGroup;
+			children = (
+				3A551DF32424BBBD0049622E /* TimeProfiler */,
+				3A551E042424BBBD0049622E /* Entrance */,
+			);
+			path = Monitor;
+			sourceTree = "<group>";
+		};
+		3A551DF32424BBBD0049622E /* TimeProfiler */ = {
+			isa = PBXGroup;
+			children = (
+				3A551DF62424BBBD0049622E /* BBASMCallTrace.c */,
+				3A551DFD2424BBBD0049622E /* BBASMCallTrace.h */,
+				3A551E032424BBBD0049622E /* BBASMCallTraceInterface.h */,
+				3A551DFA2424BBBD0049622E /* BBASMCallTraceInterface.m */,
+				3A551DF92424BBBD0049622E /* BBASMCallTraceRunTime.h */,
+				3A551E012424BBBD0049622E /* BBASMCallTraceRunTime.m */,
+				3A551E022424BBBD0049622E /* BBASMRecordCell.h */,
+				3A551DFB2424BBBD0049622E /* BBASMRecordCell.m */,
+				3A551DFE2424BBBD0049622E /* BBASMRecordHierarchyModel.h */,
+				3A551DF42424BBBD0049622E /* BBASMRecordHierarchyModel.m */,
+				3A551DF82424BBBD0049622E /* BBASMRecordModel.h */,
+				3A551E002424BBBD0049622E /* BBASMRecordModel.m */,
+				3A551DF72424BBBD0049622E /* BBASMTimeProfileDataManager.h */,
+				3A551DFC2424BBBD0049622E /* BBASMTimeProfileDataManager.m */,
+				3A551DFF2424BBBD0049622E /* BBASMTimeProfilerVC.h */,
+				3A551DF52424BBBD0049622E /* BBASMTimeProfilerVC.m */,
+			);
+			path = TimeProfiler;
+			sourceTree = "<group>";
+		};
+		3A551E042424BBBD0049622E /* Entrance */ = {
+			isa = PBXGroup;
+			children = (
+				3A551E052424BBBD0049622E /* BBASMCallTraceProfilerEntrance.h */,
+				3A551E062424BBBD0049622E /* BBASMCallTraceProfilerEntrance.m */,
+			);
+			path = Entrance;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3A551DA02424A5190049622E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A551E172424BBBD0049622E /* BBASMCallTraceProfilerEntrance.h in Headers */,
+				3A551E162424BBBD0049622E /* BBASMCallTraceInterface.h in Headers */,
+				3A551E0C2424BBBD0049622E /* BBASMCallTraceRunTime.h in Headers */,
+				3A551DB82424A5190049622E /* MDCycriptManager.h in Headers */,
+				3A551E102424BBBD0049622E /* BBASMCallTrace.h in Headers */,
+				3A551E152424BBBD0049622E /* BBASMRecordCell.h in Headers */,
+				3A551E0A2424BBBD0049622E /* BBASMTimeProfileDataManager.h in Headers */,
+				3A551DE72424A51A0049622E /* CallTraceForWeChatDylib.h in Headers */,
+				3A551DBC2424A5190049622E /* MDMethodTrace.h in Headers */,
+				3A551DE52424A51A0049622E /* fishhook.h in Headers */,
+				3A551E122424BBBD0049622E /* BBASMTimeProfilerVC.h in Headers */,
+				3A551DD92424A51A0049622E /* LLDBTools.h in Headers */,
+				3A551DB42424A5190049622E /* MDConfigManager.h in Headers */,
+				3A551E0B2424BBBD0049622E /* BBASMRecordModel.h in Headers */,
+				3A551DD32424A5190049622E /* OCSelectorTrampolines.h in Headers */,
+				3A551DCF2424A5190049622E /* OCMethodTrace.h in Headers */,
+				3A551E112424BBBD0049622E /* BBASMRecordHierarchyModel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3A551D902424A5190049622E /* CallTraceForWeChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A551DEF2424A51A0049622E /* Build configuration list for PBXNativeTarget "CallTraceForWeChat" */;
+			buildPhases = (
+				3A551D8A2424A5190049622E /* Sources */,
+				3A551D8B2424A5190049622E /* Frameworks */,
+				3A551D8C2424A5190049622E /* ShellScript */,
+				3A551D8D2424A5190049622E /* Resources */,
+				3A551D8E2424A5190049622E /* CopyFiles */,
+				3A551D8F2424A5190049622E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A551DA52424A5190049622E /* PBXTargetDependency */,
+			);
+			name = CallTraceForWeChat;
+			productName = CallTraceForWeChat;
+			productReference = 3A551D912424A5190049622E /* CallTraceForWeChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A551DA12424A5190049622E /* CallTraceForWeChatDylib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A551DEC2424A51A0049622E /* Build configuration list for PBXNativeTarget "CallTraceForWeChatDylib" */;
+			buildPhases = (
+				3A551D9D2424A5190049622E /* ShellScript */,
+				3A551D9E2424A5190049622E /* Sources */,
+				3A551D9F2424A5190049622E /* Frameworks */,
+				3A551DA02424A5190049622E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CallTraceForWeChatDylib;
+			productName = CallTraceForWeChatDylib;
+			productReference = 3A551DA22424A5190049622E /* libCallTraceForWeChatDylib.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A551D862424A5190049622E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = com.ceekay1991;
+				TargetAttributes = {
+					3A551D902424A5190049622E = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					3A551DA12424A5190049622E = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 3A551D892424A5190049622E /* Build configuration list for PBXProject "CallTraceForWeChat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A551D852424A5190049622E;
+			productRefGroup = 3A551D922424A5190049622E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A551D902424A5190049622E /* CallTraceForWeChat */,
+				3A551DA12424A5190049622E /* CallTraceForWeChatDylib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A551D8D2424A5190049622E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A551D992424A5190049622E /* MDConfig.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A551D8C2424A5190049622E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = /opt/MonkeyDev/Tools/pack.sh;
+		};
+		3A551D8F2424A5190049622E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/Tools/pack.sh codesign";
+		};
+		3A551D9D2424A5190049622E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/bin/md --xcbp-logos";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A551D8A2424A5190049622E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A551D9E2424A5190049622E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A551DBA2424A5190049622E /* MDCycriptManager.m in Sources */,
+				3A551DC32424A5190049622E /* a1a2-selectortramps-arm64.s in Sources */,
+				3A551DC12424A5190049622E /* a1a2-selectortramps-arm.s in Sources */,
+				3A551DC72424A5190049622E /* a1a2-selectortramps-x86_64.s in Sources */,
+				3A551DD12424A5190049622E /* OCMethodTrace.m in Sources */,
+				3A551E092424BBBD0049622E /* BBASMCallTrace.c in Sources */,
+				3A551DB62424A5190049622E /* MDConfigManager.m in Sources */,
+				3A551DE32424A51A0049622E /* fishhook.c in Sources */,
+				3A551DE02424A51A0049622E /* AntiAntiDebug.m in Sources */,
+				3A551DE92424A51A0049622E /* CallTraceForWeChatDylib.m in Sources */,
+				3A551E132424BBBD0049622E /* BBASMRecordModel.m in Sources */,
+				3A551E0E2424BBBD0049622E /* BBASMRecordCell.m in Sources */,
+				3A551E182424BBBD0049622E /* BBASMCallTraceProfilerEntrance.m in Sources */,
+				3A551DD52424A5190049622E /* OCSelectorTrampolines.mm in Sources */,
+				3A551DC52424A5190049622E /* a1a2-selectortramps-i386.s in Sources */,
+				3A551E082424BBBD0049622E /* BBASMTimeProfilerVC.m in Sources */,
+				3A551DCB2424A5190049622E /* a2a3-selectortramps-i386.s in Sources */,
+				3A551E0F2424BBBD0049622E /* BBASMTimeProfileDataManager.m in Sources */,
+				3A551E142424BBBD0049622E /* BBASMCallTraceRunTime.m in Sources */,
+				3A551DC92424A5190049622E /* a2a3-selectortramps-arm.s in Sources */,
+				3A551DB12424A5190049622E /* CallTraceForWeChatDylib.mm in Sources */,
+				3A551DDB2424A51A0049622E /* LLDBTools.mm in Sources */,
+				3A551DCD2424A5190049622E /* a2a3-selectortramps-x86_64.s in Sources */,
+				3A551E072424BBBD0049622E /* BBASMRecordHierarchyModel.m in Sources */,
+				3A551DBE2424A5190049622E /* MDMethodTrace.m in Sources */,
+				3A551E0D2424BBBD0049622E /* BBASMCallTraceInterface.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A551DA52424A5190049622E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A551DA12424A5190049622E /* CallTraceForWeChatDylib */;
+			targetProxy = 3A551DA42424A5190049622E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3A551DEA2424A51A0049622E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3A551DEB2424A51A0049622E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A551DED2424A51A0049622E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LA546BDDH6;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks/**",
+					"$(MonkeyDevPath)/Librarys/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CallTraceForWeChatDylib/CallTraceForWeChatDylib-Prefix.pch";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/include",
+					"$(MonkeyDevTheosPath)/vendor/include/**",
+				);
+				INSTALL_PATH = "@executable_path/Frameworks/libCallTraceForWeChatDylib.dylib";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks",
+					"$(MonkeyDevTheosPath)/vendor/lib/**",
+				);
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-DTHEOS_INSTANCE_NAME=\"\\\"CallTraceForWeChatDylib\\\"\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-weak_library",
+					"/usr/lib/libc++.dylib",
+					"-weak_library",
+					"/usr/lib/libstdc++.dylib",
+					"-weak_library",
+					"$(MonkeyDevPath)/Frameworks/libsubstrate.dylib",
+					"-lcycript",
+					"-framework",
+					RevealServer,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		3A551DEE2424A51A0049622E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = LA546BDDH6;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks/**",
+					"$(MonkeyDevPath)/Librarys/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CallTraceForWeChatDylib/CallTraceForWeChatDylib-Prefix.pch";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/include",
+					"$(MonkeyDevTheosPath)/vendor/include/**",
+				);
+				INSTALL_PATH = "@executable_path/Frameworks/libCallTraceForWeChatDylib.dylib";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks",
+					"$(MonkeyDevTheosPath)/vendor/lib/**",
+				);
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-DTHEOS_INSTANCE_NAME=\"\\\"CallTraceForWeChatDylib\\\"\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-weak_library",
+					"/usr/lib/libc++.dylib",
+					"-weak_library",
+					"/usr/lib/libstdc++.dylib",
+					"-weak_library",
+					"$(MonkeyDevPath)/Frameworks/libsubstrate.dylib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3A551DF02424A51A0049622E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HS7DX68WVX;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = CallTraceForWeChat/Info.plist;
+				MONKEYDEV_ADD_SUBSTRATE = YES;
+				MONKEYDEV_CLASS_DUMP = YES;
+				MONKEYDEV_DEFAULT_BUNDLEID = NO;
+				MONKEYDEV_INSERT_DYLIB = YES;
+				MONKEYDEV_RESTORE_SYMBOL = YES;
+				MONKEYDEV_TARGET_APP = Optional;
+				PODS_CONFIGURATION_BUILD_DIR = "$BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				PODS_ROOT = "${SRCROOT}/Pods";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crh.dev.CallTraceForWeChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A551DF12424A51A0049622E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HS7DX68WVX;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = CallTraceForWeChat/Info.plist;
+				MONKEYDEV_ADD_SUBSTRATE = YES;
+				MONKEYDEV_CLASS_DUMP = YES;
+				MONKEYDEV_DEFAULT_BUNDLEID = NO;
+				MONKEYDEV_INSERT_DYLIB = YES;
+				MONKEYDEV_RESTORE_SYMBOL = YES;
+				MONKEYDEV_TARGET_APP = Optional;
+				PODS_CONFIGURATION_BUILD_DIR = "$BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				PODS_ROOT = "${SRCROOT}/Pods";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crh.dev.CallTraceForWeChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A551D892424A5190049622E /* Build configuration list for PBXProject "CallTraceForWeChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A551DEA2424A51A0049622E /* Debug */,
+				3A551DEB2424A51A0049622E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A551DEC2424A51A0049622E /* Build configuration list for PBXNativeTarget "CallTraceForWeChatDylib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A551DED2424A51A0049622E /* Debug */,
+				3A551DEE2424A51A0049622E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A551DEF2424A51A0049622E /* Build configuration list for PBXNativeTarget "CallTraceForWeChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A551DF02424A51A0049622E /* Debug */,
+				3A551DF12424A51A0049622E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A551D862424A5190049622E /* Project object */;
+}

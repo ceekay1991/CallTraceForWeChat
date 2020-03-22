@@ -1,0 +1,2145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "92EB33EC-2934-4E69-8861-5E0C4AEB79C7"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.SymbolicBreakpoint">
+         <BreakpointContent
+            uuid = "B06D845C-64B0-438C-83DE-D6A95FB181D3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "appItemDidStaredSuccess:"
+            moduleName = "">
+            <Locations>
+               <Location
+                  uuid = "B06D845C-64B0-438C-83DE-D6A95FB181D3 - 178e4fb96fa7e3bc"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[WAStarLinearListViewController appItemDidStaredSuccess:]"
+                  moduleName = "WeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "B06D845C-64B0-438C-83DE-D6A95FB181D3 - 77c69f504c8deaca"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[WAMainListViewController appItemDidStaredSuccess:]"
+                  moduleName = "WeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "B06D845C-64B0-438C-83DE-D6A95FB181D3 - 5a562e1c5989fe3d"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[WAFavViewController appItemDidStaredSuccess:]"
+                  moduleName = "WeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "B06D845C-64B0-438C-83DE-D6A95FB181D3 - 69307bc974bf69ba"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[WAHistoryListViewController appItemDidStaredSuccess:]"
+                  moduleName = "WeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "B06D845C-64B0-438C-83DE-D6A95FB181D3 - fe0d748685312bef"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[WAMainFrameTaskBarLogic appItemDidStaredSuccess:]"
+                  moduleName = "WeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.SymbolicBreakpoint">
+         <BreakpointContent
+            uuid = "7865D7DA-B646-41B5-9423-9C90F6C59188"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "openApp:taskExtInfo:onSuccess:onFailed:"
+            moduleName = "">
+            <Locations>
+               <Location
+                  uuid = "7865D7DA-B646-41B5-9423-9C90F6C59188 - f85b04988840b954"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[WAAppContactPreLoader openApp:taskExtInfo:onSuccess:onFailed:]"
+                  moduleName = "WeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.SymbolicBreakpoint">
+         <BreakpointContent
+            uuid = "7A694CA2-12B6-4DF0-80E9-3B2A817D5626"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "firstLoadWeAppContact"
+            moduleName = "">
+            <Locations>
+               <Location
+                  uuid = "7A694CA2-12B6-4DF0-80E9-3B2A817D5626 - c17a65ca1fa0bd45"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[WAAppContactPreLoader firstLoadWeAppContact]"
+                  moduleName = "WeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.SymbolicBreakpoint">
+         <BreakpointContent
+            uuid = "DD9689DF-0906-4402-98BD-9AB4EA2ECDF3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "reportPerformanceInfo"
+            moduleName = "">
+            <Locations>
+               <Location
+                  uuid = "DD9689DF-0906-4402-98BD-9AB4EA2ECDF3 - 49193b8c54b75583"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[WAAppTask reportPerformanceInfo]"
+                  moduleName = "WeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.SymbolicBreakpoint">
+         <BreakpointContent
+            uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "bundleIdentifier"
+            moduleName = "">
+            <Locations>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 5074e9b57f6d9b55"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[TSEnvironment bundleIdentifier]"
+                  moduleName = "WeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - ed2ef9a598e2c6fb"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[CNFavoritesEntry bundleIdentifier]"
+                  moduleName = "Contacts"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - acc22ea5af605ce2"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[CXInProcessCallSource bundleIdentifier]"
+                  moduleName = "CallKit"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 766d139771408cf3"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[CXXPCCallSource bundleIdentifier]"
+                  moduleName = "CallKit"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - d2a3b1fd155ab37f"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[CXCallSource bundleIdentifier]"
+                  moduleName = "CallKit"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 47702510ba4dcbe7"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[CXVoicemailSource bundleIdentifier]"
+                  moduleName = "CallKit"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 5827d8b29930d611"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[CXXPCVoicemailSource bundleIdentifier]"
+                  moduleName = "CallKit"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - ac366e17ba21e52e"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[INCodableLocalizationTable bundleIdentifier]"
+                  moduleName = "Intents"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 5d8e6bcd22219d89"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[INImageBundle bundleIdentifier]"
+                  moduleName = "Intents"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 30bf26d21ff9f6b8"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[_INPBAppIdentifier bundleIdentifier]"
+                  moduleName = "Intents"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 880cf464251e678c"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[INAppIdentifier bundleIdentifier]"
+                  moduleName = "Intents"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 815c1f64c8649f32"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[UNUserNotificationCenter bundleIdentifier]"
+                  moduleName = "UserNotifications"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 63afe7a2cc7527e9"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[CSSearchableItemAttributeSet(CSAttributes) bundleIdentifier]"
+                  moduleName = "CoreSpotlight"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - a536304fa80128ab"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[CSSearchableIndex bundleIdentifier]"
+                  moduleName = "CoreSpotlight"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - ef1bdcce946837db"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[PKUserNotificationsRemoteNotificationServiceConnection bundleIdentifier]"
+                  moduleName = "PushKit"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - c2e16afb2b40119b"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[NEAOVPNException bundleIdentifier]"
+                  moduleName = "NetworkExtension"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - f957bd23e19ade25"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[HKSource bundleIdentifier]"
+                  moduleName = "HealthKit"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - aac448e0e5f1e9fe"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[HKObjectAuthorizationPromptSession bundleIdentifier]"
+                  moduleName = "HealthKit"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - c92fe808c892b6a6"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[HKDataCollector bundleIdentifier]"
+                  moduleName = "HealthKit"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - eb9693ad79087b55"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[HKDataCollectorTaskServerConfiguration bundleIdentifier]"
+                  moduleName = "HealthKit"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 6142fab26e94e1b7"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[SKPaymentQueueClient bundleIdentifier]"
+                  moduleName = "StoreKit"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - e4943a6784ea5795"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[MPPlaybackArchive bundleIdentifier]"
+                  moduleName = "MediaPlayer"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - f6c1ed9a43ad5b8"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[NSBundle bundleIdentifier]"
+                  moduleName = "Foundation"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 997f533d1d85aa01"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[LSBundleRecordUpdater bundleIdentifier]"
+                  moduleName = "CoreServices"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 2b47297856cd4fc5"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[_LSApplicationState bundleIdentifier]"
+                  moduleName = "CoreServices"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 4257f046d4157f41"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[_LSApplicationIsInstalledQuery bundleIdentifier]"
+                  moduleName = "CoreServices"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 56203deeee0c74b0"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[_LSAppLinkOpenState bundleIdentifier]"
+                  moduleName = "CoreServices"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 49770b9e9f5e0de3"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[LSBundleProxy bundleIdentifier]"
+                  moduleName = "CoreServices"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - ff1badbde27171a6"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[BKSLaunchdJobSpecification bundleIdentifier]"
+                  moduleName = "AssertionServices"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 666dad3be7bb5f17"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[BSXPCBundle bundleIdentifier]"
+                  moduleName = "BaseBoard"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - f1bd6ffdf1321674"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[BSCFBundle bundleIdentifier]"
+                  moduleName = "BaseBoard"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 1e3d9eae669d40e1"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[BSProcessHandle bundleIdentifier]"
+                  moduleName = "BaseBoard"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 752c62ab77cc46a2"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[RBSProcessPredicate(RBSProcessBundle) bundleIdentifier]"
+                  moduleName = "RunningBoardServices"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 961349259322ff23"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[SABinary bundleIdentifier]"
+                  moduleName = "SampleAnalysis"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - f3e04b2346856b6c"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[VMUProcessDescription bundleIdentifier]"
+                  moduleName = "Symbolication"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 244936befcbfbe1"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[FBSDisplayLayoutElement bundleIdentifier]"
+                  moduleName = "FrontBoardServices"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 8e3148b721d0b86b"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[FBSBundleInfo bundleIdentifier]"
+                  moduleName = "FrontBoardServices"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 3da98199fbc4f959"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[FBSSceneClientIdentity bundleIdentifier]"
+                  moduleName = "FrontBoardServices"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - ba2ae937511f34e6"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[DMPluginFileSystemRep bundleIdentifier]"
+                  moduleName = "DataMigration"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 68fc17df39acbf1b"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[NSCoreDataCoreSpotlightDelegate(CoreDataSPI) bundleIdentifier]"
+                  moduleName = "CoreData"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 7ec3add2baed7355"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[CDDCloudKitRegistrationMessage bundleIdentifier]"
+                  moduleName = "CoreData"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - c0be29e141932dd4"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[FPItemDecoration bundleIdentifier]"
+                  moduleName = "FileProvider"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - ea2634dda2b4da11"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[UIStatusBarCarPlayDockAppItemButton bundleIdentifier]"
+                  moduleName = "UIKitCore"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 452015b5f70db1bb"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[UIWebClip bundleIdentifier]"
+                  moduleName = "UIKitCore"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 30f23a2b7b909035"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ISIconResourceLocator bundleIdentifier]"
+                  moduleName = "IconServices"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 4b032ccadcc72a4b"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ISIconTypeResourceLocator bundleIdentifier]"
+                  moduleName = "IconServices"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 30b6ae633b71f3f9"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[WebBasePluginPackage bundleIdentifier]"
+                  moduleName = "WebKitLegacy"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 2f05edd3fd062298"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[AMSProcessInfo bundleIdentifier]"
+                  moduleName = "AppleMediaServices"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 5d1fea68c635ae6f"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[AMSMappedBundleInfo bundleIdentifier]"
+                  moduleName = "AppleMediaServices"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 66d50d7d3456648f"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[AMSLookupItem bundleIdentifier]"
+                  moduleName = "AppleMediaServices"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 8c545abc71d11a5a"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[CKSyncingClientInfo bundleIdentifier]"
+                  moduleName = "CloudKit"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 1561c9cb88736e30"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[_MRNowPlayingClientProtobuf bundleIdentifier]"
+                  moduleName = "MediaRemote"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 7c6b039ec5dbce5"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[CLSFavorite bundleIdentifier]"
+                  moduleName = "ClassKit"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 23be8e7657ea624e"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[CLSHandoutAttachment bundleIdentifier]"
+                  moduleName = "ClassKit"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 6f5fcdb7644a671b"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[SGURL bundleIdentifier]"
+                  moduleName = "CoreSuggestions"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - e7c87afa2eb4442a"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[CNManagedConfiguration bundleIdentifier]"
+                  moduleName = "ContactsFoundation"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - fd3f2652010b967"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ACXRemoteApplication bundleIdentifier]"
+                  moduleName = "AppConduit"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - c3836d500b03dba4"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GEOTileRequest bundleIdentifier]"
+                  moduleName = "GeoServices"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - d396ce682b4696a"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GEOProxyClient bundleIdentifier]"
+                  moduleName = "GeoServices"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - a6a87e0b007b0b62"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GEOTransitAppLaunchFeedbackCollection bundleIdentifier]"
+                  moduleName = "GeoServices"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - f84c46da188e9a8"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GEOPlaceDataCacheFeedback bundleIdentifier]"
+                  moduleName = "GeoServices"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - d990403535896851"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GEOLogMsgEventTransitAppLaunch bundleIdentifier]"
+                  moduleName = "GeoServices"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 7e2f2b4a6794596e"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GEOPeer bundleIdentifier]"
+                  moduleName = "GeoServices"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 4104b452a65f4602"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[SFSearchSuggestion bundleIdentifier]"
+                  moduleName = "SearchFoundation"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - baac1b4cb263bc8f"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[SFAppIconImage bundleIdentifier]"
+                  moduleName = "SearchFoundation"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 599b0225d1c14503"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[_SFPBAppIconImage bundleIdentifier]"
+                  moduleName = "SearchFoundation"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - fc2b48cc853194f4"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[_SFPBPunchout bundleIdentifier]"
+                  moduleName = "SearchFoundation"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - b239ba951e7742ce"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[_SFPBSearchSuggestion bundleIdentifier]"
+                  moduleName = "SearchFoundation"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 6fb46921c29d6ff2"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[SFPunchout bundleIdentifier]"
+                  moduleName = "SearchFoundation"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 715d4fa524a5d35f"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[SFResultSection bundleIdentifier]"
+                  moduleName = "SearchFoundation"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 5767a32103aba0fd"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ClientIdentity bundleIdentifier]"
+                  moduleName = "CalendarDaemon"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - bfff5ba1c2831f98"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[CADMCAccountAccessHandler bundleIdentifier]"
+                  moduleName = "CalendarDaemon"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - f7c478eeb40c9772"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[PGPictureInPictureApplication bundleIdentifier]"
+                  moduleName = "Pegasus"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 90a4e4daf6f64959"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[PKPaymentAuthorizationDataModel bundleIdentifier]"
+                  moduleName = "PassKitCore"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 35ac60a61ac68d2f"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[PDAssertionCoordinator bundleIdentifier]"
+                  moduleName = "PassKitCore"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 758b3982e8e10354"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[PKDisbursementVoucherRequest bundleIdentifier]"
+                  moduleName = "PassKitCore"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 125b8d65d80f813"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[BPSNotificationAppController bundleIdentifier]"
+                  moduleName = "BridgePreferences"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - c17cb2b9049c8e39"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[SSDownloadMetadata bundleIdentifier]"
+                  moduleName = "StoreServices"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 25ee47751706b48f"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[SSItem bundleIdentifier]"
+                  moduleName = "StoreServices"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 8f4acd8ef52c89c1"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[SSWatchMetricsEvent bundleIdentifier]"
+                  moduleName = "StoreServices"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 4e727fbb72ce39da"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[SSVGratisApplication bundleIdentifier]"
+                  moduleName = "StoreServices"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 456ab55c40e5dcc8"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[SSVInstallManagedApplicationRequest bundleIdentifier]"
+                  moduleName = "StoreServices"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - e89e31d94e3e8256"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[SSPrivacyMetricsEvent bundleIdentifier]"
+                  moduleName = "StoreServices"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - ee0bcfc125a8d1fc"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[SSLookupItem bundleIdentifier]"
+                  moduleName = "StoreServices"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - a6787a25de84bc4"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[SSSoftwareUpdate bundleIdentifier]"
+                  moduleName = "StoreServices"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 38d4ca5323bb81e7"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[PSDocumentsPolicyController bundleIdentifier]"
+                  moduleName = "Preferences"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 7830e9c63bc3f134"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[PSUsageBundleApp bundleIdentifier]"
+                  moduleName = "Preferences"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - b6e14f65f10bc4f7"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[PSSystemPolicyForApp bundleIdentifier]"
+                  moduleName = "Preferences"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 96af702d524eb267"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[CKAppInstallation bundleIdentifier]"
+                  moduleName = "ChatKit"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - f0cc5faadd5991c9"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[CKTranscriptPluginChatItem bundleIdentifier]"
+                  moduleName = "ChatKit"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 448f0522b8ab4e15"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[QLScreenTimeItemViewController bundleIdentifier]"
+                  moduleName = "QuickLook"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 3351fd89ba240034"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[TLSystemApplication bundleIdentifier]"
+                  moduleName = "ToneLibrary"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 33548749e4a47d4b"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[STStorageApp bundleIdentifier]"
+                  moduleName = "StorageSettings"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 6193aadfaa36ee36"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[STUsagePseudoApp bundleIdentifier]"
+                  moduleName = "StorageSettings"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - e3bb2457ddf8a475"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[STAppInfo bundleIdentifier]"
+                  moduleName = "ScreenTimeCore"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 475f08024ec0a9d8"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[STConversation bundleIdentifier]"
+                  moduleName = "ScreenTimeCore"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - ddb1596dc5d3d9ee"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[TUConversation bundleIdentifier]"
+                  moduleName = "TelephonyUtilities"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - a5b9b40e39f6054a"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[TUJoinConversationRequest bundleIdentifier]"
+                  moduleName = "TelephonyUtilities"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - c09ea3c879fc32e2"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[TUCallProvider bundleIdentifier]"
+                  moduleName = "TelephonyUtilities"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 8083ffae8d885d8b"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[TUDialRequest bundleIdentifier]"
+                  moduleName = "TelephonyUtilities"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - e03afdcabbe2d2df"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[NSSUsageApp bundleIdentifier]"
+                  moduleName = "NanoSystemSettings"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - f81a117613498bf7"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[NSSUsageBundle bundleIdentifier]"
+                  moduleName = "NanoSystemSettings"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - d670cfc10b818f2c"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bundleIdentifier"
+                  moduleName = "AssetsLibraryServices"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 137345518b598cc9"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[DMFApp bundleIdentifier]"
+                  moduleName = "DeviceManagement"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 93759791e4dfbff6"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[DMFApplication bundleIdentifier]"
+                  moduleName = "DeviceManagement"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - d0308fc34927fad1"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[DMFAppRequest bundleIdentifier]"
+                  moduleName = "DeviceManagement"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 68a2fce4ab43cb83"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[DMFMDMv1InstallAppResultObject bundleIdentifier]"
+                  moduleName = "DeviceManagement"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 54333c5e035bf607"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[DMFOpenAppRequest bundleIdentifier]"
+                  moduleName = "DeviceManagement"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 95a13bb615308779"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[DMFStartAppLockRequest bundleIdentifier]"
+                  moduleName = "DeviceManagement"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - b8d47b26c9da1e65"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[CTCategory bundleIdentifier]"
+                  moduleName = "Categories"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - b57724a8b788fe00"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[CNDonationOrigin bundleIdentifier]"
+                  moduleName = "ContactsDonation"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 692d25402350e763"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[CNTUCallProvider bundleIdentifier]"
+                  moduleName = "ContactsUICore"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 8dcc27d0bffaa557"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[CNUIUserActionItem bundleIdentifier]"
+                  moduleName = "ContactsUICore"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 2fadda90a86c1b49"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[CNUIUserActionTarget bundleIdentifier]"
+                  moduleName = "ContactsUICore"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 82507c6058b8f0bb"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[EMSearchableIndexQuery bundleIdentifier]"
+                  moduleName = "Email"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 71bfbd2c9a690c70"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[MSPushRegistration bundleIdentifier]"
+                  moduleName = "MailServices"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - b3509d959de12c9e"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ICMediaApplicationBanner bundleIdentifier]"
+                  moduleName = "iTunesCloud"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 9552e286a395d89e"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ICInAppMessageEntry bundleIdentifier]"
+                  moduleName = "iTunesCloud"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 5f32be47c712d748"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ICClientInfo bundleIdentifier]"
+                  moduleName = "iTunesCloud"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - c9510f865640f496"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ISSoftwareApplication bundleIdentifier]"
+                  moduleName = "iTunesStore"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 8afdaa1dd4c136e4"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ISSetApplicationBadgeOperation bundleIdentifier]"
+                  moduleName = "iTunesStore"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - d4c385524e83b0ae"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ML3UpdateSpotlightIndexOperation bundleIdentifier]"
+                  moduleName = "MusicLibrary"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - bf2a2b958715102c"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[AXAppRepresentation bundleIdentifier]"
+                  moduleName = "AccessibilityUtilities"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - b8b3f1fe6408fa82"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[VSAssetBase bundleIdentifier]"
+                  moduleName = "VoiceServices"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 914e17d99f92775d"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ASDSoftwareUpdate bundleIdentifier]"
+                  moduleName = "AppStoreDaemon"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 803f88e071b94517"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ASDManagedApplicationRequestOptions bundleIdentifier]"
+                  moduleName = "AppStoreDaemon"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - f2ac72023bf7e3af"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ASDStoreItemMetadata bundleIdentifier]"
+                  moduleName = "AppStoreDaemon"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 6d06a4f1b0fca919"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[IBARevealDiscoveryDataCoder bundleIdentifier]"
+                  moduleName = "RevealServer"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 6b83f426016938af"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[_SWCServiceSpecifier(SWCExtendedServiceSpecifier) bundleIdentifier]"
+                  moduleName = "SharedWebCredentials"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2C977DAA-4018-4CAC-93BC-28C0823410CC - 7a26de2529963485"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[_SWCApplicationIdentifier bundleIdentifier]"
+                  moduleName = "SharedWebCredentials"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.SymbolicBreakpoint">
+         <BreakpointContent
+            uuid = "376BE54D-D357-4C3C-AFB6-19C3BFDE2475"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "-[WAJSCoreService sendEvaluateJavascript:]"
+            moduleName = "">
+            <Actions>
+               <BreakpointActionProxy
+                  ActionExtensionID = "Xcode.BreakpointAction.DebuggerCommand">
+                  <ActionContent
+                     consoleCommand = "po $arg3">
+                  </ActionContent>
+               </BreakpointActionProxy>
+            </Actions>
+            <Locations>
+               <Location
+                  uuid = "376BE54D-D357-4C3C-AFB6-19C3BFDE2475 - ab04a30cecfb4b32"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[WAJSCoreService sendEvaluateJavascript:]"
+                  moduleName = "WeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.SymbolicBreakpoint">
+         <BreakpointContent
+            uuid = "E3B27EC0-4D51-494D-8A2D-E35F7CAB6898"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "onWeAppItemOpened:"
+            moduleName = "">
+            <Locations>
+               <Location
+                  uuid = "E3B27EC0-4D51-494D-8A2D-E35F7CAB6898 - 1c31579d0ba2ef6c"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[WAMainFrameTaskBarLogic onWeAppItemOpened:]"
+                  moduleName = "WeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "E3B27EC0-4D51-494D-8A2D-E35F7CAB6898 - fe2bee404baeb73b"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[WAHistoryListViewController onWeAppItemOpened:]"
+                  moduleName = "WeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "E3B27EC0-4D51-494D-8A2D-E35F7CAB6898 - 98f17a78b787c64b"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[WAMainListViewController onWeAppItemOpened:]"
+                  moduleName = "WeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.SymbolicBreakpoint">
+         <BreakpointContent
+            uuid = "6202B21E-7A2C-4616-9191-8986CC66F607"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "reportPerformanceInfo"
+            moduleName = "">
+            <Locations>
+               <Location
+                  uuid = "6202B21E-7A2C-4616-9191-8986CC66F607 - 49193b8c54b75583"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[WAAppTask reportPerformanceInfo]"
+                  moduleName = "WeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.SymbolicBreakpoint">
+         <BreakpointContent
+            uuid = "45C62573-9123-4B26-9329-604868C32511"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "initPerformanceReport"
+            moduleName = "">
+            <Locations>
+               <Location
+                  uuid = "45C62573-9123-4B26-9329-604868C32511 - 566a132e9bdceaab"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[WAAppTask initPerformanceReport]"
+                  moduleName = "WeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.SymbolicBreakpoint">
+         <BreakpointContent
+            uuid = "E1C92FC0-CF1F-4E14-A8E7-876CAF2D9230"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "appState"
+            moduleName = "">
+            <Locations>
+               <Location
+                  uuid = "E1C92FC0-CF1F-4E14-A8E7-876CAF2D9230 - ed2d9726ef2a97c"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[WAPageFlowAppInfo appState]"
+                  moduleName = "WeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "E1C92FC0-CF1F-4E14-A8E7-876CAF2D9230 - 702bd58fa495baf2"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[WAMainFrameShortNameConflictModel appState]"
+                  moduleName = "WeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "E1C92FC0-CF1F-4E14-A8E7-876CAF2D9230 - 88951b053ae9bfc7"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[LinkWeAppJumpWrap appState]"
+                  moduleName = "WeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "E1C92FC0-CF1F-4E14-A8E7-876CAF2D9230 - 6b19ee55a62de543"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[LSApplicationProxy appState]"
+                  moduleName = "CoreServices"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "E1C92FC0-CF1F-4E14-A8E7-876CAF2D9230 - ded7c5ae1b548ebd"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[CLPAppLocation appState]"
+                  moduleName = "CoreLocationProtobuf"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.SymbolicBreakpoint">
+         <BreakpointContent
+            uuid = "64B4ADCF-8BEF-4016-8919-E865AA858C04"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "setAppState:"
+            moduleName = "">
+            <Locations>
+               <Location
+                  uuid = "64B4ADCF-8BEF-4016-8919-E865AA858C04 - 140baa05b8ca8aba"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[WAPageFlowAppInfo setAppState:]"
+                  moduleName = "WeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "64B4ADCF-8BEF-4016-8919-E865AA858C04 - 3cf85af945910258"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[WAMainFrameShortNameConflictModel setAppState:]"
+                  moduleName = "WeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "64B4ADCF-8BEF-4016-8919-E865AA858C04 - aa042187da3cfa8f"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[LinkWeAppJumpWrap setAppState:]"
+                  moduleName = "WeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "64B4ADCF-8BEF-4016-8919-E865AA858C04 - 8a9e9d127c698b23"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[CLPAppLocation setAppState:]"
+                  moduleName = "CoreLocationProtobuf"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.SymbolicBreakpoint">
+         <BreakpointContent
+            uuid = "21D4582C-DF65-47AC-8524-C27694BF13B1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "onTimer:"
+            moduleName = "">
+            <Locations>
+               <Location
+                  uuid = "21D4582C-DF65-47AC-8524-C27694BF13B1 - 6877bd64eef7f005"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[WAJSCoreService onTimer:]"
+                  moduleName = "WeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "21D4582C-DF65-47AC-8524-C27694BF13B1 - 3415be01503baf67"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[WAJSWorkFlow onTimer:]"
+                  moduleName = "WeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "21D4582C-DF65-47AC-8524-C27694BF13B1 - 3ad08a3e1814d961"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[WAMsgNodeJSCore onTimer:]"
+                  moduleName = "WeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "21D4582C-DF65-47AC-8524-C27694BF13B1 - a0cd451868f6595e"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[WebViewSanboxSessionTask onTimer:]"
+                  moduleName = "WeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.SymbolicBreakpoint">
+         <BreakpointContent
+            uuid = "61DC40F5-053C-4C63-8E75-979C0E1BC022"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "-[WAJSCoreService runThread:]"
+            moduleName = "">
+            <Locations>
+               <Location
+                  uuid = "61DC40F5-053C-4C63-8E75-979C0E1BC022 - b1374874fa4ae15a"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[WAJSCoreService runThread:]"
+                  moduleName = "WeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.SymbolicBreakpoint">
+         <BreakpointContent
+            uuid = "FD4F74ED-3150-4861-8D7B-F79C4B30BDE1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "workthread_sendJSEventToService:"
+            moduleName = "">
+            <Locations>
+               <Location
+                  uuid = "FD4F74ED-3150-4861-8D7B-F79C4B30BDE1 - 8d3b3274d98993ba"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[WAJSCoreService workthread_sendJSEventToService:]"
+                  moduleName = "WeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.SymbolicBreakpoint">
+         <BreakpointContent
+            uuid = "D86552F2-6AAC-475C-93AF-61026DAF542E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "-[WAJSCoreService performEventOnThread:afterThreadInject:]"
+            moduleName = "">
+            <Locations>
+               <Location
+                  uuid = "D86552F2-6AAC-475C-93AF-61026DAF542E - 3ce84130817fdfd9"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[WAJSCoreService performEventOnThread:afterThreadInject:]"
+                  moduleName = "WeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.SymbolicBreakpoint">
+         <BreakpointContent
+            uuid = "3CF07176-6C03-4E8D-B827-61EB24C04EA1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "setThread:"
+            moduleName = "">
+            <Locations>
+               <Location
+                  uuid = "3CF07176-6C03-4E8D-B827-61EB24C04EA1 - b420643575aa68a9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[WAMsgNodeJSCore setThread:]"
+                  moduleName = "WeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "3CF07176-6C03-4E8D-B827-61EB24C04EA1 - 995379f02c359745"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[WAMsgNodeThreadInfo setThread:]"
+                  moduleName = "WeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "3CF07176-6C03-4E8D-B827-61EB24C04EA1 - dc87092cb5952537"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[NativeTask setThread:]"
+                  moduleName = "WeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "3CF07176-6C03-4E8D-B827-61EB24C04EA1 - 672c309d40d7b74d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[WAJSCoreService setThread:]"
+                  moduleName = "WeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "3CF07176-6C03-4E8D-B827-61EB24C04EA1 - 57d9151a7482f255"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[EDInMemoryThread setThread:]"
+                  moduleName = "EmailDaemon"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.SymbolicBreakpoint">
+         <BreakpointContent
+            uuid = "642A4A83-72E5-4CC9-AE41-AB6482F08E83"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "evaluateScript:"
+            moduleName = "">
+            <Locations>
+               <Location
+                  uuid = "642A4A83-72E5-4CC9-AE41-AB6482F08E83 - a06632448cda3005"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[EJJavaScriptView evaluateScript:]"
+                  moduleName = "WeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "642A4A83-72E5-4CC9-AE41-AB6482F08E83 - fe51c0c34a379227"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[JSContext evaluateScript:]"
+                  moduleName = "JavaScriptCore"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "316A5E0B-501A-42DC-A5D6-1116B294B245"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CallTraceForWeChatDylib/Monitor/Entrance/BBASMCallTraceProfilerEntrance.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "136"
+            endingLineNumber = "136"
+            landmarkName = "+showTimeProfile:currentVC:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.SymbolicBreakpoint">
+         <BreakpointContent
+            uuid = "AD210CB1-141D-400F-893E-4CBE7B54FAE8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "-[WAJSCoreService runThread:] "
+            moduleName = "">
+            <Locations>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "62F5E8B8-4692-48F0-B999-1612EE1F550F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CallTraceForWeChatDylib/Monitor/Entrance/BBASMCallTraceProfilerEntrance.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "-_setThread:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.SymbolicBreakpoint">
+         <BreakpointContent
+            uuid = "4CBAD627-A17B-42DA-A16D-14548ADD7212"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "-[WAJSCoreService startServiceThread]"
+            moduleName = "">
+            <Locations>
+               <Location
+                  uuid = "4CBAD627-A17B-42DA-A16D-14548ADD7212 - 6276790b1b6bc5d2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[WAJSCoreService startServiceThread]"
+                  moduleName = "WeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.SymbolicBreakpoint">
+         <BreakpointContent
+            uuid = "92E97892-504F-401A-ABBA-9994CFEA34F2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "stopAppBrandAndThread"
+            moduleName = "">
+            <Locations>
+               <Location
+                  uuid = "92E97892-504F-401A-ABBA-9994CFEA34F2 - 8a703c8528572137"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[WAJSCoreService stopAppBrandAndThread]"
+                  moduleName = "WeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A78EB89D-5E68-4BAB-9116-A0F4C4117E32"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CallTraceForWeChatDylib/Monitor/Entrance/BBASMCallTraceProfilerEntrance.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
+            landmarkName = "-_viewDidLoad"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.SymbolicBreakpoint">
+         <BreakpointContent
+            uuid = "1FC3544A-24AA-4ADD-91C5-A37CD488735D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "removeAppByUser:"
+            moduleName = "">
+            <Locations>
+               <Location
+                  uuid = "1FC3544A-24AA-4ADD-91C5-A37CD488735D - a71a342bf4ea4ce5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[AppDataMgr removeAppByUser:]"
+                  moduleName = "WeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.SymbolicBreakpoint">
+         <BreakpointContent
+            uuid = "233E10B5-C368-4B58-9ECA-DF1178D7644B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "taskDidClose:"
+            moduleName = "">
+            <Locations>
+               <Location
+                  uuid = "233E10B5-C368-4B58-9ECA-DF1178D7644B - bcd775e5c5be384a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[WAAppTaskMgr taskDidClose:]"
+                  moduleName = "WeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.SymbolicBreakpoint">
+         <BreakpointContent
+            uuid = "B6A8A85C-7C2F-4293-81A9-39BE5A10C05A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "callClearData"
+            moduleName = "">
+            <Locations>
+               <Location
+                  uuid = "B6A8A85C-7C2F-4293-81A9-39BE5A10C05A - 24ad2cc442bb2a1e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[MMServiceCenter callClearData]"
+                  moduleName = "WeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.SymbolicBreakpoint">
+         <BreakpointContent
+            uuid = "A8F7671B-7118-4128-BCB3-1614CB3B01CF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "closeTaskWithReason:"
+            moduleName = "">
+            <Locations>
+               <Location
+                  uuid = "A8F7671B-7118-4128-BCB3-1614CB3B01CF - b9f1349d0e4223c9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[WAAppTask closeTaskWithReason:]"
+                  moduleName = "WeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.SymbolicBreakpoint">
+         <BreakpointContent
+            uuid = "9D369418-8C2F-4E32-8396-665E4B9AB01C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "callOnTerminateAppID:"
+            moduleName = "">
+            <Locations>
+               <Location
+                  uuid = "9D369418-8C2F-4E32-8396-665E4B9AB01C - 52f265a1fdca8e84"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[WAAppTaskMgr callOnTerminateAppID:]"
+                  moduleName = "WeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C71C679B-160F-4D32-A5C8-98CEFF9708D5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CallTraceForWeChatDylib/Monitor/Entrance/BBASMCallTraceProfilerEntrance.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "128"
+            endingLineNumber = "128"
+            landmarkName = "-showJSThreadCallTraceView:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
