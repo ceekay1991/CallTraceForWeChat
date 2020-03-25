@@ -302,6 +302,7 @@
 ####  3、hook objc_msg_send核心思路
 * objc_msgSend 方法执行的逻辑是：先获取对象对应类的信息，再获取方法的缓存，根据方法的 selector 查找函数指针，经过异常错误处理后，最后跳到对应函数的实现。
 * bbasm_calltrace_fake_objc_msgSend_safe大致逻辑
+     *  复制栈帧
      *  保存寄存器x0 - x8，q0 - q7到栈上，
      *  记录class，selector，startTime，lr
      *  恢复寄存器x0 - x8，q0 - q7，
@@ -309,6 +310,7 @@
      *  保存寄存器x0 - x8，q0 - q7到栈上，
      *  记录endTime，
      *  恢复寄存器x0 - x8，q0 - q7，以及lr
+     *  释放栈帧
      
 ### 逆向
 * 1、逆向相关原理可关注[逻辑教育Hank老师的公开课](https://ke.qq.com/course/339445?term_id=100403325&from=41&enter_room=1)
