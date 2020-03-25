@@ -55,6 +55,7 @@
 		3A551E162424BBBD0049622E /* BBASMCallTraceInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A551E032424BBBD0049622E /* BBASMCallTraceInterface.h */; };
 		3A551E172424BBBD0049622E /* BBASMCallTraceProfilerEntrance.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A551E052424BBBD0049622E /* BBASMCallTraceProfilerEntrance.h */; };
 		3A551E182424BBBD0049622E /* BBASMCallTraceProfilerEntrance.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A551E062424BBBD0049622E /* BBASMCallTraceProfilerEntrance.m */; };
+		3A7D4552242AFAE800A19B9B /* bbasm-calltrace-objc-msg-arm64.s in Sources */ = {isa = PBXBuildFile; fileRef = 3A7D4551242AFAE800A19B9B /* bbasm-calltrace-objc-msg-arm64.s */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -137,6 +138,7 @@
 		3A551E032424BBBD0049622E /* BBASMCallTraceInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBASMCallTraceInterface.h; sourceTree = "<group>"; };
 		3A551E052424BBBD0049622E /* BBASMCallTraceProfilerEntrance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBASMCallTraceProfilerEntrance.h; sourceTree = "<group>"; };
 		3A551E062424BBBD0049622E /* BBASMCallTraceProfilerEntrance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBASMCallTraceProfilerEntrance.m; sourceTree = "<group>"; };
+		3A7D4551242AFAE800A19B9B /* bbasm-calltrace-objc-msg-arm64.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = "bbasm-calltrace-objc-msg-arm64.s"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -329,6 +331,7 @@
 		3A551DF32424BBBD0049622E /* TimeProfiler */ = {
 			isa = PBXGroup;
 			children = (
+				3A7D4551242AFAE800A19B9B /* bbasm-calltrace-objc-msg-arm64.s */,
 				3A551DF62424BBBD0049622E /* BBASMCallTrace.c */,
 				3A551DFD2424BBBD0049622E /* BBASMCallTrace.h */,
 				3A551E032424BBBD0049622E /* BBASMCallTraceInterface.h */,
@@ -548,6 +551,7 @@
 				3A551E092424BBBD0049622E /* BBASMCallTrace.c in Sources */,
 				3A551DB62424A5190049622E /* MDConfigManager.m in Sources */,
 				3A551DE32424A51A0049622E /* fishhook.c in Sources */,
+				3A7D4552242AFAE800A19B9B /* bbasm-calltrace-objc-msg-arm64.s in Sources */,
 				3A551DE02424A51A0049622E /* AntiAntiDebug.m in Sources */,
 				3A551DE92424A51A0049622E /* CallTraceForWeChatDylib.m in Sources */,
 				3A551E132424BBBD0049622E /* BBASMRecordModel.m in Sources */,

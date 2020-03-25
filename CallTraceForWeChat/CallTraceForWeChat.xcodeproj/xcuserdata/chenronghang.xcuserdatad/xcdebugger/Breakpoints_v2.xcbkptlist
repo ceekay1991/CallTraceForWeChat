@@ -8,7 +8,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.SymbolicBreakpoint">
          <BreakpointContent
             uuid = "B06D845C-64B0-438C-83DE-D6A95FB181D3"
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             symbolName = "appItemDidStaredSuccess:"
@@ -16,7 +16,7 @@
             <Locations>
                <Location
                   uuid = "B06D845C-64B0-438C-83DE-D6A95FB181D3 - 178e4fb96fa7e3bc"
-                  shouldBeEnabled = "No"
+                  shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "-[WAStarLinearListViewController appItemDidStaredSuccess:]"
@@ -26,7 +26,7 @@
                </Location>
                <Location
                   uuid = "B06D845C-64B0-438C-83DE-D6A95FB181D3 - 77c69f504c8deaca"
-                  shouldBeEnabled = "No"
+                  shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "-[WAMainListViewController appItemDidStaredSuccess:]"
@@ -36,7 +36,7 @@
                </Location>
                <Location
                   uuid = "B06D845C-64B0-438C-83DE-D6A95FB181D3 - 5a562e1c5989fe3d"
-                  shouldBeEnabled = "No"
+                  shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "-[WAFavViewController appItemDidStaredSuccess:]"
@@ -46,7 +46,7 @@
                </Location>
                <Location
                   uuid = "B06D845C-64B0-438C-83DE-D6A95FB181D3 - 69307bc974bf69ba"
-                  shouldBeEnabled = "No"
+                  shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "-[WAHistoryListViewController appItemDidStaredSuccess:]"
@@ -56,7 +56,7 @@
                </Location>
                <Location
                   uuid = "B06D845C-64B0-438C-83DE-D6A95FB181D3 - fe0d748685312bef"
-                  shouldBeEnabled = "No"
+                  shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "-[WAMainFrameTaskBarLogic appItemDidStaredSuccess:]"
